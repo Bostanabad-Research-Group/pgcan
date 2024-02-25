@@ -38,7 +38,8 @@ model.train()
 ```
 
 
-# Citation
+
+## Citation
 
 @article{pgcan2024,
   title={Parametric Encoding with Attention and Convolution Mitigate Spectral Bias of Neural Partial Differential Equation Solvers},
@@ -49,7 +50,7 @@ model.train()
 
 
 
-# Contact
+## Contact
 
 For queries, please contact Raminb@uci.edu.
 
