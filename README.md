@@ -35,7 +35,10 @@ from pgcan import PGCANModel
 
 model = PGCANModel(settings)
 model.train()
-'''
+```
+
+
+# Citation
 
 @article{pgcan2024,
   title={Parametric Encoding with Attention and Convolution Mitigate Spectral Bias of Neural Partial Differential Equation Solvers},
