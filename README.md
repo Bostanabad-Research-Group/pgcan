@@ -6,10 +6,10 @@ PGCAN introduces a novel architecture for solving Partial Differential Equations
 
 PGCAN leverages Parametric Grid Encoding, Convolutional Layers, and an Attention Mechanism to improve the learning of PDE solutions. This approach structures the input space, reduces overfitting, enhances feature capture, and prioritizes significant features for accurate and efficient PDE solution approximation.
 
-![PGCAN Architecture](figures/figure1.png)
+![PGCAN Architecture](figures/figure1.pdf)
 _Figure 1: PGCAN architecture._
 
-![Solution Comparison](figures/figure2.png)
+![Solution Comparison](figures/sol.png)
 _Figure 2: Comparative results._
 
 
