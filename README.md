@@ -47,9 +47,12 @@ To run PGCAN, follow these steps:
 
 ## 2. Run
 You can run pgcan and other models directly using the following code.Please make sure the below folders exist in the running directory:
-##### Figures (cross plots and contours and losses will be plotted)
-##### Text (Two type of files are saved. a .txt files to show the elapsed time and number of paramter in the model and a .csv file that shows accuracy for 10 intervals)
-##### Saved_Models (saved models)
+##### Figures 
+(cross plots and contours and losses will be plotted)
+##### Text 
+(Two type of files are saved. a .txt files to show the elapsed time and number of paramter in the model and a .csv file that shows accuracy for 10 intervals)
+##### 
+Saved_Models (saved models checkpoints)
 
 [NS cavity equation]
 ```
