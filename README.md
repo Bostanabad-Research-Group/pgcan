@@ -14,9 +14,27 @@ _Figure 2: Comparative results._
 
 
 
-## Installation
+## Quick Start
 
-To use PGCAN, ensure you have Python and the following packages installed:
+## 1. Installation
+
+### Clone PIXEL repo
+
+```
+git clone 
+cd pgcan
+```
+
+### Create environment
+
+The code is tested with Python 3.8.8 PyTorch 1.13.1 with CUDA 11.6. 
+You can create an anaconda environment with those requirements by running:
+
+```
+  - conda env create -f environment.yml
+
+-  conda activate pgcan
+```
 
 
 
@@ -24,19 +42,12 @@ To use PGCAN, ensure you have Python and the following packages installed:
 
 To run PGCAN, follow these steps:
 
-1. Define the PDE system and boundary conditions.
-2. Initialize the PGCAN model.
-3. Train the model using the provided training script.
-
-```python
-from pgcan import PGCANModel
-
-# Define your PDE system and conditions here
-
-model = PGCANModel(settings)
-model.train()
+## 2. Run
+You can run pgcan and other models directly using the following code.
 ```
-
+[NS cavity equation]
+python benchmark.py
+```
 
 
 ## Citation
