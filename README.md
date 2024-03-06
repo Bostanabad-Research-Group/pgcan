@@ -31,9 +31,10 @@ The code is tested with Python 3.8.8 PyTorch 1.13.1 with CUDA 11.6.
 You can create an anaconda environment with those requirements by running:
 
 ```
-  - conda env create -f environment.yml
-
--  conda activate pgcan
+conda env create -f environment.yml
+```
+```
+conda activate pgcan
 ```
 
 
@@ -44,8 +45,8 @@ To run PGCAN, follow these steps:
 
 ## 2. Run
 You can run pgcan and other models directly using the following code.
-```
 [NS cavity equation]
+```
 python benchmark.py
 ```
 
