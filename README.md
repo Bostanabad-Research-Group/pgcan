@@ -21,7 +21,7 @@ _Figure 2: Comparative results._
 ### Clone PIXEL repo
 
 ```
-git clone 
+git clone https://github.com/Bostanabad-Research-Group/pgcan.git
 cd pgcan
 ```
 
