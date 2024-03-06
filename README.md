@@ -44,11 +44,11 @@ conda activate pgcan
 To run PGCAN, follow these steps:
 
 ## 2. Run
-You can run pgcan and other models directly using the following code.Please make sure the below folders exist:
-### Figures
-### Text
-### Text/csv
-### Saved_Models
+You can run pgcan and other models directly using the following code.Please make sure the below folders exist in the running directory:
+##### Figures
+##### Text
+##### Text/csv
+##### Saved_Models
 
 [NS cavity equation]
 ```
