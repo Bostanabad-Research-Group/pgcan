@@ -18,7 +18,7 @@ _Figure 2: Comparative results._
 
 ## 1. Installation
 
-### Clone PIXEL repo
+### Clone PGCAN repo
 
 ```
 git clone https://github.com/Bostanabad-Research-Group/pgcan.git
