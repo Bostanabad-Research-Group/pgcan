@@ -136,19 +136,6 @@ class Trainer(nn.Module):
 
     def compute_dynamic_weights(self):
 
-        # # cascading
-        # delta_pde_teta = torch.autograd.grad(self.pde_loss, 
-        #                                      [param for model in self.model.model_list for param in model.parameters()
-        #                                        if param.requires_grad == True], retain_graph=True)
-        # values = [p.reshape(-1,).cpu().tolist() for p in delta_pde_teta if p is not None]
-        # delta_pde_teta_abs = torch.abs(torch.tensor([v for val in values for v in val]))
-
-        # delta_bc_teta = torch.autograd.grad(self.bc_loss, 
-        #                                      [param for model in self.model.model_list for param in model.parameters()
-        #                                        if param.requires_grad == True], retain_graph=True)
-        # values = [p.reshape(-1,).cpu().tolist() for p in delta_bc_teta if p is not None]
-        # delta_bc_teta_abs = torch.abs(torch.tensor([v for val in values for v in val]))
-
         delta_pde_teta = torch.autograd.grad(self.pde_loss, self.model.parameters(),  retain_graph=True, allow_unused=True)
         values = [p.reshape(-1,).cpu().tolist() for p in delta_pde_teta if p is not None]
         delta_pde_teta_abs = torch.abs(torch.tensor([v for val in values for v in val]))
@@ -307,7 +294,6 @@ class Trainer(nn.Module):
 
                 u_predict = self.model(x_test,y_test)
                 rrmse = compare_plot(x_test,y_test,u_test, u_predict, title=f"{self.title}_{self.iter}")
-                #print(rrmse)
                 metric.append(rrmse)
 
 
