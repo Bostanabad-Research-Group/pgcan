@@ -62,13 +62,18 @@ python benchmark.py
 
 ## Citation
 
-@article{pgcan2024,
-  title={Parametric Encoding with Attention and Convolution Mitigate Spectral Bias of Neural Partial Differential Equation Solvers},
-  author={Author Names},
-  journal={Journal Name},
-  year={2024}
-}
 
+@article{pgcan2024,
+  author = {Shishehbor, Mehdi and Hosseinmardi, Shirin and Bostanabad, Ramin},
+  title = {Parametric encoding with attention and convolution mitigate spectral bias of neural partial differential equation solvers},
+  journal = {Structural and Multidisciplinary Optimization},
+  year = {2024},
+  volume = {67},
+  number = {7},
+  pages = {128},
+  issn={1615-1488},
+  doi={10.1007/s00158-024-03834-7},
+}
 
 
 ## Contact
