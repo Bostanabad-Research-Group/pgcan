@@ -62,7 +62,7 @@ python benchmark.py
 
 ## Citation
 
-
+```
 @article{pgcan2024,
   author = {Shishehbor, Mehdi and Hosseinmardi, Shirin and Bostanabad, Ramin},
   title = {Parametric encoding with attention and convolution mitigate spectral bias of neural partial differential equation solvers},
@@ -74,6 +74,7 @@ python benchmark.py
   issn={1615-1488},
   doi={10.1007/s00158-024-03834-7},
 }
+```
 
 
 ## Contact
